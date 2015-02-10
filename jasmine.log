@@ -1,0 +1,22 @@
+Running `"/usr/local/bin/phantomjs" "/Users/k41n/.rvm/gems/ruby-2.1.5@redminer/bundler/gems/jasmine-rails-c48b08054ff4/lib/jasmine_rails/../assets/javascripts/jasmine-runner.js" "/Users/k41n/redminer/spec/tmp/runner.html?spec="`
+Running: /Users/k41n/redminer/spec/tmp/runner.html?spec=
+ERROR: TypeError: 'undefined' is not an object (evaluating 'jasmine.Matchers.prototype')
+TRACE:
+ -> file:///Users/k41n/redminer/spec/tmp/assets/jasmine-specs.js: 46940
+ -> file:///Users/k41n/redminer/spec/tmp/assets/jasmine-specs.js: 46962
+ -> file:///Users/k41n/redminer/spec/tmp/assets/jasmine-specs.js: 46973
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file:///Users/k41n/.rvm/gems/ruby-2.1.5@redminer/bundler/gems/jasmine-rails-c48b08054ff4/lib/assets/javascripts/jasmine-runner.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file:///Users/k41n/.rvm/gems/ruby-2.1.5@redminer/bundler/gems/jasmine-rails-c48b08054ff4/lib/assets/javascripts/jasmine-runner.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file:///Users/k41n/.rvm/gems/ruby-2.1.5@redminer/bundler/gems/jasmine-rails-c48b08054ff4/lib/assets/javascripts/jasmine-runner.js. Domains, protocols and ports must match.
+
+rake aborted!
+Error executing command: "/usr/local/bin/phantomjs" "/Users/k41n/.rvm/gems/ruby-2.1.5@redminer/bundler/gems/jasmine-rails-c48b08054ff4/lib/jasmine_rails/../assets/javascripts/jasmine-runner.js" "/Users/k41n/redminer/spec/tmp/runner.html?spec="
+/Users/k41n/.rvm/gems/ruby-2.1.5@redminer/bundler/gems/jasmine-rails-c48b08054ff4/lib/jasmine_rails/runner.rb:72:in `run_cmd'
+/Users/k41n/.rvm/gems/ruby-2.1.5@redminer/bundler/gems/jasmine-rails-c48b08054ff4/lib/jasmine_rails/runner.rb:22:in `block in run'
+/Users/k41n/.rvm/gems/ruby-2.1.5@redminer/bundler/gems/jasmine-rails-c48b08054ff4/lib/jasmine_rails/runner.rb:49:in `override_rails_config'
+/Users/k41n/.rvm/gems/ruby-2.1.5@redminer/bundler/gems/jasmine-rails-c48b08054ff4/lib/jasmine_rails/runner.rb:9:in `run'
+/Users/k41n/.rvm/gems/ruby-2.1.5@redminer/bundler/gems/jasmine-rails-c48b08054ff4/lib/tasks/jasmine-rails_tasks.rake:8:in `block (2 levels) in <top (required)>'
+Tasks: TOP => spec:javascript
+(See full trace by running task with --trace)
